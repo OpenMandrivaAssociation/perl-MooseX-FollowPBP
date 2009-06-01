@@ -12,8 +12,9 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl(Moose)
 BuildArch: noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
 This module does not provide any methods. Simply loading it changes the
