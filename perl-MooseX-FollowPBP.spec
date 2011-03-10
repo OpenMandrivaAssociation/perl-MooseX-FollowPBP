@@ -1,9 +1,9 @@
 %define upstream_name    MooseX-FollowPBP
-%define upstream_version 0.04
+%define upstream_version 0.05
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Names accessors in the I<Perl Best Practices> style
 License:    GPL+ or Artistic
