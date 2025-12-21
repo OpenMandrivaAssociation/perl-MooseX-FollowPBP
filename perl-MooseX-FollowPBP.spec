@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/MooseX::FollowPBP
 Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Module::Build::Compat)
 BuildRequires:	perl(Moose)
