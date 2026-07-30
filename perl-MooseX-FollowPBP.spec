@@ -1,4 +1,5 @@
 %define upstream_name    MooseX-FollowPBP
+%define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
 Version:	0.05
@@ -8,7 +9,7 @@ Summary:	Names accessors in the I<Perl Best Practices> style
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/MooseX::FollowPBP
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/MooseX-FollowPBP-0.05.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
